@@ -23,8 +23,8 @@ jobs:
       - name: Prepare en-GB files structure
         run: |
           mkdir -p com_gallery_en-GB/administrator
-          cp temp_gallery-x2/packages/com_gallery/admin/language/admin/en-GB/en-GB.com_gallery.ini com_gallery_en-GB/administrator/
-          cp temp_gallery-x2/packages/com_gallery/admin/language/admin/en-GB/en-GB.com_gallery.sys.ini com_gallery_en-GB/administrator/
+          cp temp_gallery-x2/packages/com_gallery/admin/language/en-GB/en-GB.com_gallery.ini com_gallery_en-GB/administrator/
+          cp temp_gallery-x2/packages/com_gallery/admin/language/en-GB/en-GB.com_gallery.sys.ini com_gallery_en-GB/administrator/
           rm -rf temp_gallery-x2
 
       - name: Set up Python
